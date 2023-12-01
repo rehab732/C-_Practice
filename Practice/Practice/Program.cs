@@ -16,9 +16,6 @@ namespace Practice
 			//ip[3] = 155;
 			//Console.WriteLine(ip.GetIP);
 			#endregion
-
-
-
 			#region Delegate 
 			//List<Employee> employees = new List<Employee> {
 			//	new Employee(1, "Rehab Zaki", Gender.Female, 1000),
@@ -57,13 +54,13 @@ namespace Practice
 			//	dele -= rect.GetArea;
 			//	dele(10, 10);
 			//}
-
-
-
+			//static bool IsGreater(Employee employee) => employee.TotalSales >= 1000;
+			//static bool IsLess(Employee employee) => employee.TotalSales < 1000;
 			#endregion
+
+
 		}
 
-		static bool IsGreater(Employee employee) => employee.TotalSales >= 1000;
-		static bool IsLess(Employee employee) => employee.TotalSales < 1000;
+		
 	}
 }
