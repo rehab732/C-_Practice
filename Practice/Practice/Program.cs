@@ -1,5 +1,4 @@
-﻿using Practice.Delegate;
-using static Practice.Delegate.Rectangle;
+﻿using Practice.Events;
 
 namespace Practice
 {
@@ -58,9 +57,40 @@ namespace Practice
 			//static bool IsLess(Employee employee) => employee.TotalSales < 1000;
 			#endregion
 
+			#region Evens
+			//Stock stock = new Stock("Ra7oba");
+			//stock.Price = 100;
+			//stock.onPriceChanged += Stock_onPriceChanged;
+			//Console.WriteLine("Price Before Change");
+			//Console.WriteLine(stock.Price);
+			//Console.WriteLine("Price After Change");
+			//stock.ChangeStockPrice(-20);
+			//Console.WriteLine(stock.Price);
+
+
+			#endregion
 
 		}
 
-		
+		//private static void Stock_onPriceChanged(Stock stock, int price)
+		//{
+		//	if (stock.Price > price)
+		//	{
+		//		Console.ForegroundColor = ConsoleColor.Red;
+		//		Console.WriteLine("New Price="+ stock.Price);
+		//		Console.WriteLine("Old Price" + price);
+		//	}
+		//	else if (stock.Price < price)
+		//	{
+		//		Console.ForegroundColor = ConsoleColor.Green;
+		//		Console.WriteLine("New Price=" + stock.Price);
+		//		Console.WriteLine("Old Price" + price);
+		//	}
+		//	else
+		//	{
+		//		Console.WriteLine("New Price=" + stock.Price);
+		//		Console.WriteLine("Old Price" + price);
+		//	}
+		//}
 	}
 }
