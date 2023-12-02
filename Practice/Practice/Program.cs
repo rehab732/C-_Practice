@@ -70,10 +70,10 @@ namespace Practice
 			#endregion
 
 			#region operator overloading
-			Money m1 = new Money(10);
-			Money m2 = new Money(20);
-			Money m3 = m1 + m2;
-			Console.WriteLine("Amount of M3="+m3.Amount);
+			//Money m1 = new Money(10);
+			//Money m2 = new Money(20);
+			//Money m3 = m1 + m2;
+			//Console.WriteLine("Amount of M3="+m3.Amount);
 			#endregion
 		}
 
