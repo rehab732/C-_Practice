@@ -1,4 +1,5 @@
 ﻿using Practice.Events;
+using Practice.OperatorOverLoading;
 
 namespace Practice
 {
@@ -66,10 +67,14 @@ namespace Practice
 			//Console.WriteLine("Price After Change");
 			//stock.ChangeStockPrice(-20);
 			//Console.WriteLine(stock.Price);
-
-
 			#endregion
 
+			#region operator overloading
+			Money m1 = new Money(10);
+			Money m2 = new Money(20);
+			Money m3 = m1 + m2;
+			Console.WriteLine("Amount of M3="+m3.Amount);
+			#endregion
 		}
 
 		//private static void Stock_onPriceChanged(Stock stock, int price)
