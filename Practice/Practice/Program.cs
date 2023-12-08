@@ -1,5 +1,6 @@
 ﻿using Practice.Events;
 using Practice.OperatorOverLoading;
+using Practice.Struct;
 
 namespace Practice
 {
@@ -75,6 +76,24 @@ namespace Practice
 			//Money m3 = m1 + m2;
 			//Console.WriteLine("Amount of M3="+m3.Amount);
 			#endregion
+
+
+			//struct
+			Operation operation = new Operation(10,20);
+			Console.WriteLine(operation.X);
+			Console.WriteLine(operation.Y);
+			Console.WriteLine(operation.sum());
+
+
+			var p1 = new Coords(0, 0);
+			Console.WriteLine(p1);  // output: (0, 0)
+
+			var p2 = p1 with { X = 3 };
+			Console.WriteLine(p2);  // output: (3, 0)
+
+			var p3 = p1 with { X = 1, Y = 4 };
+			Console.WriteLine(p3);  // output: (1, 4)
+
 		}
 
 		//private static void Stock_onPriceChanged(Stock stock, int price)
