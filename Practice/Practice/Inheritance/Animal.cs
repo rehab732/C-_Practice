@@ -7,5 +7,11 @@
             Console.WriteLine("Moving");
 
         }
+        //test github work
+        public void MoveTwo()
+        {
+            Console.WriteLine("Moving Two");
+
+        }
     }
 }
